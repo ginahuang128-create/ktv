@@ -4,7 +4,7 @@ import { useState, useEffect, useRef } from "react";
 const GOOGLE_SCRIPT_URL = "https://script.googleusercontent.com/macros/echo?user_content_key=AUkAhnQE5vH_gJAPbdkdo9JOO_kfyXO4WewLop6Poaml4sznndZbHFvj5zYoILNXBl2O1bzbEjckb0oGR7WXIKF2_uqgBetna48bjyFfxRJkxGaiAAS32uk7_zcYPdngcD1e1SkhihsXjR2ijdg82gReM-EmsZwS6OJVwjiUi0K1DrS2-zDsSJ9qLmC_0qpIofA1LuqBGFYXo8vCGAcPdkXUx7Lk50OzLmYRfacvpxm07H9-0ccr0WK7LsAEkRV28JIBQSe1BEdBQD0tgtxcRtgEVj3ZbPvc5Q&lib=M6GsPgIN7jgZR3fYc4YHLsDrq_XfHy2fD";
 
 // ── 背景海報預設圖（防編譯錯誤留空，可自由填入圖片 URL） ──
-const POSTER = "";
+const POSTER = "https://i.meee.com.tw/K4mrP8o.jpg";
 
 export default function KtvRegistration() {
   const [formData, setFormData] = useState({
